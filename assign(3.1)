@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arsh.helloworld.MainActivity"
+    android:weightSum="1">
+
+
+    <Button android:background="@color/colorPrimary"
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:layout_weight="0.13" />
+
+    <Button android:background="#EC5E0E  "
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orange"
+        android:layout_weight="0.18" />
+    
+
+    <Button android:background="#F5F904"
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        android:layout_weight="0.19" />
+
+    <Button android:background="#139219"
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:layout_weight="0.15" />
+
+    <Button android:background="#090CE0"
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:layout_weight="0.21" />
+
+    <Button android:background="#061943  "
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indigo"
+        android:layout_weight="0.16" />
+
+    <Button android:background="#A595DC  "
+        android:id="@+id/button22"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Violet" />
+</LinearLayout>
